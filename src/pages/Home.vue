@@ -14,9 +14,9 @@
       @mouseleave="autoplay = true"
     >
       <q-carousel-slide name="first" img-src="~assets/welcome.jpg">
-        <div class="absolute-bottom custom-caption">
-          <div class="text-h4">Hello! This is Shuvobroto Biswas</div>
-          <div class="text-subtitle1">
+        <div class="absolute-center custom-caption">
+          <div class="text-4xl">Hello! This is MD Zihadul Islam</div>
+          <div class="text-lg">
             Frontend Developer | Cross Platform Software
           </div>
           <!-- My CV -->
@@ -26,10 +26,10 @@
             leave-active-class="animated fadeOut"
           >
             <q-btn
-              color="black"
+              class="py-3 my-4 bg-gray-700 rounded-lg"
               icon="collections_bookmark"
               label="My CV"
-              href="https://drive.google.com/file/d/1I-fWsqrag8q2FUqDbuh5qwAsz9yrUKoO/view?usp=sharing"
+              href="https://drive.google.com/file/d/1XmNeMYINNBvpHPUxb78hYlPlVlcqxiPS/view?usp=drive_link"
             />
           </transition>
           <!-- My Professional Achievements -->
@@ -39,10 +39,10 @@
             leave-active-class="animated fadeOut"
           >
             <q-btn
-              color="black"
+              class="py-3 my-4 bg-gray-700 rounded-lg"
               icon="workspace_premium"
               label="My Professional Achievements"
-              href="https://drive.google.com/file/d/1RQ4vjFD4AfDU9_siWRQA-rLu9UkNmhsI/view?usp=sharing"
+              href=""
             />
           </transition>
         </div>
@@ -301,4 +301,9 @@ export default {
   vertical-align: middle
   height: 2em
   width: 2em
+</style>
+<style>
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 </style>

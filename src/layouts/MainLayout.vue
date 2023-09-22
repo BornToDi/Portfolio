@@ -10,7 +10,7 @@
           aria-label="Menu"
           @click="toggleLeftDrawer"
         />
-        <q-toolbar-title> SHUVOBROTO PORTFOLIO </q-toolbar-title>
+        <q-toolbar-title> ZIHADUL PORTFOLIO </q-toolbar-title>
         <!-- <div>Quasar v{{ $q.version }}</div> -->
       </q-toolbar>
     </q-header>
@@ -26,8 +26,8 @@
             <q-avatar size="100px" class="q-mb-sm">
               <img src="~assets/mypic.png" />
             </q-avatar>
-            <div class="text-weight-bold">Shuvobroto Biswas</div>
-            <div>Software Engineer</div>
+            <div class="text-weight-bold">MD ZIHADUL ISLAM</div>
+            <div>Web Developer</div>
           </div>
         </q-img>
       </div>
@@ -57,7 +57,7 @@
     <!-- Footer -->
     <q-footer class="bg-black absolute-bottom">
       <div class="row justify-center items-center">
-        2022 © Shuvobroto™ All rights reserved.
+        2023 © Zihadul™ All rights reserved.
       </div>
     </q-footer>
   </q-layout>
@@ -68,15 +68,16 @@ import EssentialLink from "components/EssentialLink.vue";
 const linksList = [
   {
     title: "Educations & CV",
-    caption: "Green University of Bangladesh --    BSC in CSE (2018-2022)",
+    caption:
+      "American International University Bangladesh --    BSC in CSE (2018-2023)",
     icon: "school",
-    link: "https://drive.google.com/file/d/1I-fWsqrag8q2FUqDbuh5qwAsz9yrUKoO/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1XmNeMYINNBvpHPUxb78hYlPlVlcqxiPS/view?usp=drive_link",
   },
   {
     title: "Github",
-    caption: "github.com/ShuvobrotoBiswas",
+    caption: "github.com/BornToDi",
     icon: "code",
-    link: "https://github.com/ShuvobrotoBiswas",
+    link: "https://github.com/BornToDi",
   },
   // {
   //   title: "Discord Chat Channel",
@@ -86,21 +87,16 @@ const linksList = [
   // },
   {
     title: "Facebook",
-    caption: "facebook/Shuvobroto(Rocky)",
+    caption: "facebook/MD Zihadul Islam",
     icon: "facebook",
-    link: "https://www.facebook.com/Coder.Rocky.Samrat.Devils.King.Software.Developer/",
+    link: "https://www.facebook.com/the.leader.will.come.one.day?mibextid=ZbWKwL",
   },
-  {
-    title: "Twitter",
-    caption: "twitter.com/ShuvobrotoB",
-    icon: "person",
-    link: "https://twitter.com/ShuvobrotoB",
-  },
+
   {
     title: "Linkedin",
     caption: "Linkedin/Shuvobroto",
     icon: "task_alt",
-    link: "https://www.linkedin.com/in/shuvobroto-biswas-58a045193/",
+    link: "",
   },
   // {
   //   title: "Quasar Awesome",
