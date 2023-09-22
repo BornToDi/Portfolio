@@ -50,7 +50,7 @@
       <q-carousel-slide name="second" img-src="~assets/img2.jpg">
         <div class="absolute-bottom custom-caption">
           <div class="text-h3">Vue JS</div>
-          <div class="text-subtitle1">I working with this framework</div>
+          <div class="text-subtitle1">I working with this framework.</div>
         </div>
       </q-carousel-slide>
       <q-carousel-slide name="third" img-src="~assets/background.png">
