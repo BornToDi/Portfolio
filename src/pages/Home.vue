@@ -1,7 +1,6 @@
 <template>
   <div class="q-pa-md">
     <q-carousel
-      :ratio="4 / 3"
       animated
       v-model="slide"
       swipeable
@@ -14,11 +13,11 @@
       @mouseleave="autoplay = true"
     >
       <q-carousel-slide name="first" img-src="~assets/welcome.jpg">
-        <div class="absolute-center custom-caption">
-          <div class="text-4xl">
+        <div class="absolute-center custom-caption w-full">
+          <div class="text-2xl md:text-4xl">
             Hello! This is <span class="text-cyan-500">MD Zihadul Islam</span>
           </div>
-          <div class="text-lg">
+          <div class="text-sm md:text-lg">
             Frontend Developer | Cross Platform Software
           </div>
           <!-- My CV -->
@@ -28,7 +27,7 @@
             leave-active-class="animated fadeOut"
           >
             <q-btn
-              class="py-3 my-4 bg-gray-700 rounded-lg"
+              class="md:py-3 md:my-4 bg-gray-700 rounded-lg"
               icon="collections_bookmark"
               label="My CV"
               href="https://drive.google.com/file/d/1XmNeMYINNBvpHPUxb78hYlPlVlcqxiPS/view?usp=drive_link"
@@ -41,7 +40,7 @@
             leave-active-class="animated fadeOut"
           >
             <q-btn
-              class="py-3 my-4 bg-gray-700 rounded-lg"
+              class="md:py-3 md:my-4 bg-gray-700 rounded-lg"
               icon="workspace_premium"
               label="My Professional Achievements"
               href=""

@@ -10,16 +10,21 @@
           aria-label="Menu"
           @click="toggleLeftDrawer"
         />
-        <q-toolbar-title> ZIHADUL PORTFOLIO </q-toolbar-title>
-        <q-toolbar-title>
-          <q-btn
-            to="/contact"
-            outline
-            no-caps
-            label="Contact"
-            class="absolute-right px-10 mx-20 my-1 text-lg"
-          />
-        </q-toolbar-title>
+        <div class="">
+          <q-toolbar-title>
+            <div class="text-sm md:text-2xl">ZIHADUL PORTFOLIO</div>
+          </q-toolbar-title>
+          <q-toolbar-title>
+            <q-btn
+              to="/contact"
+              outline
+              no-caps
+              label="Contact"
+              class="absolute-right px-5 md:px-10 mx-5 md:mx-20 my-1 text-lg"
+            />
+          </q-toolbar-title>
+        </div>
+
         <!-- <div>Quasar v{{ $q.version }}</div> -->
       </q-toolbar>
     </q-header>

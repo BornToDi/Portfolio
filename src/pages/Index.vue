@@ -1,6 +1,6 @@
 <template>
   <div class="row">
-    <div class="col-12 col-md-6 pl-2 md:pl-20 py-2 md:py-16 q-pa-md">
+    <div class="col-12 col-md-6 pl-2 md:pl-20 py-2 md:py-24 q-pa-md">
       <div class="text-2xl md:text-4xl">Contact Me</div>
       <div class="mt-10 md:mt-20 flex gap-5">
         <q-icon class="text-2xl text-cyan-500" name="call" />
