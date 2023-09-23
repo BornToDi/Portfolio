@@ -1,5 +1,5 @@
-# Portfolio App (shuvobroto-portfolio)
-# https://shuvobroto-portfolio.netlify.app/#/
+# Portfolio App (zihadul-portfolio)
+# https://zihadul-portfolio.netlify.app/#/
 Shuvobroto Biswas Portfolio App
 
 ## Install the dependencies
