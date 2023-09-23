@@ -56,7 +56,7 @@
 
     <!-- Footer -->
     <q-footer class="bg-black absolute-bottom">
-      <div class="row justify-center items-center">
+      <div class="row justify-center items-center py-5 text-lg">
         2023 © Zihadul™ All rights reserved.
       </div>
     </q-footer>
@@ -94,7 +94,7 @@ const linksList = [
 
   {
     title: "Linkedin",
-    caption: "Linkedin/Shuvobroto",
+    caption: "Linkedin/Zihadul",
     icon: "task_alt",
     link: "",
   },
