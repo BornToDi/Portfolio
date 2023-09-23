@@ -15,7 +15,9 @@
     >
       <q-carousel-slide name="first" img-src="~assets/welcome.jpg">
         <div class="absolute-center custom-caption">
-          <div class="text-4xl">Hello! This is MD Zihadul Islam</div>
+          <div class="text-4xl">
+            Hello! This is <span class="text-cyan-500">MD Zihadul Islam</span>
+          </div>
           <div class="text-lg">
             Frontend Developer | Cross Platform Software
           </div>

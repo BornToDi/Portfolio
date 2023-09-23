@@ -1,6 +1,6 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated class="bg-black">
+    <q-header elevated class="bg-black py-2">
       <q-toolbar>
         <q-btn
           flat
@@ -11,6 +11,15 @@
           @click="toggleLeftDrawer"
         />
         <q-toolbar-title> ZIHADUL PORTFOLIO </q-toolbar-title>
+        <q-toolbar-title>
+          <q-btn
+            to="/contact"
+            outline
+            no-caps
+            label="Contact"
+            class="absolute-right px-10 mx-20 my-1 text-lg"
+          />
+        </q-toolbar-title>
         <!-- <div>Quasar v{{ $q.version }}</div> -->
       </q-toolbar>
     </q-header>
@@ -19,7 +28,7 @@
       <div>
         <q-img
           class="absolute-top"
-          src="~assets/cover.png"
+          src="~assets/img1.jpg"
           style="height: 200px"
         >
           <div class="absolute-bottom bg-transparent">
