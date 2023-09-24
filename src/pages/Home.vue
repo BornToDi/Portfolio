@@ -31,7 +31,16 @@
               icon="collections_bookmark"
               label="My CV"
               href="https://drive.google.com/file/d/1XmNeMYINNBvpHPUxb78hYlPlVlcqxiPS/view?usp=drive_link"
-            />
+            >
+              <q-tooltip
+                class="px-10 py-2 text-sm bg-black text-teal-400"
+                anchor="top middle"
+                self="bottom middle"
+                :offset="[10, 10]"
+              >
+                To see my Cv click here
+              </q-tooltip></q-btn
+            >
           </transition>
           <!-- My Professional Achievements -->
           <transition
@@ -43,8 +52,17 @@
               class="md:py-3 md:my-4 bg-gray-700 rounded-lg"
               icon="workspace_premium"
               label="My Professional Achievements"
-              href=""
-            />
+              href="https://drive.google.com/file/d/11SLHg1kHpKnJWCP3hpX-Nspqu0IlyzbS/view?usp=drive_link"
+            >
+              <q-tooltip
+                class="px-10 py-2 text-sm bg-black text-teal-400"
+                anchor="top middle"
+                self="bottom middle"
+                :offset="[10, 10]"
+              >
+                click here
+              </q-tooltip></q-btn
+            >
           </transition>
         </div>
       </q-carousel-slide>
@@ -92,7 +110,7 @@
 
   <!-- My Experiences -->
   <div class="text-h4 row justify-center items-center pt-10">
-    My Experiences
+    My Experiences on
   </div>
 
   <!-- Break -->
@@ -110,6 +128,14 @@
           src="~assets/img4.png"
           style="width: 50px; height: 50px"
         />
+        <q-tooltip
+          class="px-10 py-2 text-lg bg-black text-teal-400"
+          anchor="top middle"
+          self="bottom middle"
+          :offset="[10, 10]"
+        >
+          Vue JS
+        </q-tooltip>
       </q-btn>
       <q-btn href="https://quasar.dev/">
         <img
@@ -118,6 +144,14 @@
           src="~assets/img5.png"
           style="width: 50px; height: 50px"
         />
+        <q-tooltip
+          class="px-10 py-2 text-lg bg-black text-teal-400"
+          anchor="top middle"
+          self="bottom middle"
+          :offset="[10, 10]"
+        >
+          Quasar
+        </q-tooltip>
       </q-btn>
       <q-btn href="https://www.w3schools.com/js/">
         <img
@@ -126,6 +160,30 @@
           src="~assets/img6.png"
           style="width: 50px; height: 50px"
         />
+        <q-tooltip
+          class="px-10 py-2 text-lg bg-black text-teal-400"
+          anchor="top middle"
+          self="bottom middle"
+          :offset="[10, 10]"
+        >
+          Javascript
+        </q-tooltip>
+      </q-btn>
+      <q-btn href="https://tailwindui.com/">
+        <img
+          class="q-pa-xs"
+          alt="Laptop logo"
+          src="~assets/tailwind.png"
+          style="width: 50px; height: 50px"
+        />
+        <q-tooltip
+          class="px-10 py-2 text-lg bg-black text-teal-400"
+          anchor="top middle"
+          self="bottom middle"
+          :offset="[10, 10]"
+        >
+          Tailwind
+        </q-tooltip>
       </q-btn>
       <q-btn href="https://www.google.com/">
         <img
@@ -134,6 +192,14 @@
           src="~assets/img7.png"
           style="width: 50px; height: 50px"
         />
+        <q-tooltip
+          class="px-10 py-2 text-lg bg-black text-teal-400"
+          anchor="top middle"
+          self="bottom middle"
+          :offset="[10, 10]"
+        >
+          Google
+        </q-tooltip>
       </q-btn>
 
       <q-btn href="https://github.com/BornToDi">
@@ -143,6 +209,14 @@
           src="~assets/img10.png"
           style="width: 50px; height: 50px"
         />
+        <q-tooltip
+          class="px-10 py-2 text-lg bg-black text-teal-400"
+          anchor="top middle"
+          self="bottom middle"
+          :offset="[10, 10]"
+        >
+          Git
+        </q-tooltip>
       </q-btn>
     </div>
   </div>
